@@ -1,0 +1,91 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+
+    list-style: none;
+}
+
+.site-header{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.menu-list{
+
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    font-size: 22px;
+}
+
+.site-logo{
+    font-family: sans-serif;
+}
+
+.home{
+display: flex;
+align-items:center ;
+justify-content: center;
+
+}
+
+.home-title{
+    position:absolute;
+    padding: 30px;
+    background-color: chocolate ;
+    color:white ;
+    font-size: 32px;
+}
+
+
+
+
+.home-bg-image{
+
+    width: 100%;
+}
+
+.promotions-title{
+text-align: center;
+margin: 40px 0;
+
+}
+
+.promotions-images{
+display:flex ;
+gap: 20px;
+justify-content:center;
+
+}
+
+.promotions .image-item{
+background-image: url(https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/collection-1.png?raw=truegithub.com/digitalcollegebr/projeto-digital-store/blob/main/public/collection-1.png?raw=true);
+width: 405px;
+height: 251px;
+}
+
+
+
+
+
+
+
+
+
+
+
